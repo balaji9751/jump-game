@@ -1,8 +1,8 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
-let player = { x: 70, y: 350,radius: 10,  color: "blue", jumping: false };
-let obstacle = { x: 400, y: 350, radius: 20, color: "red", speed: 28 };
+let player = { x: 70, y: 350,radius: 15,  color: "blue", jumping: false };
+let obstacle = { x: 400, y: 350, radius: 20, color: "red", speed: 29};
 let score = 0;
 let highScore = localStorage.getItem("highScore") || 0;
 let gameOver = false;
