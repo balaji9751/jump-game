@@ -1,15 +1,5 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
-
-// Load the image
-const backgroundImage = new Image();
-backgroundImage.src = "./games/car.webp";
-
-// Draw the image on the canvas when it loads
-backgroundImage.onload = () => {
-  ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-};
-
 let player = { x: 70, y: 350,radius: 20,  color: "green", jumping: false };
 let obstacle = { x: 400, y: 350, radius: 20, color: "red", speed: 28};
 let score = 0;

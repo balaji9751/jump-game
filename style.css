@@ -1,10 +1,10 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: rgb(222, 10, 241);
+    background-color: rgb(245, 135, 255);
 }
 canvas {
-    background: #f3ecec09;
+    background: white;
     display: block;
     margin: 20px auto;
 }
