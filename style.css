@@ -4,7 +4,7 @@ body {
     background-color: rgb(222, 10, 241);
 }
 canvas {
-    background: #eee;
+    background: #b6abab;
     display: block;
     margin: 20px auto;
 }
@@ -13,7 +13,7 @@ canvas {
 }
 #message {
     font-size: 20px;
-    color: red;
+    color: rgba(0, 58, 167, 0);
     font-weight: bold;
     display: none;
 }
