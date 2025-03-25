@@ -74,7 +74,7 @@ function gameLoop() {
 }
 
 document.addEventListener("keydown", function (e) {
-    if (e.code === "KeyA ","ArrowUp" && !player.jumping) {
+    if (e.code === "Space" && !player.jumping) {
         player.jumping = true;
         player.y -= 100;
         setTimeout(() => {
